@@ -1,32 +1,35 @@
 body{
-    background-color:#958B95;    
-}
-
-div{
-    
+	background-color:#C9C1C9;
 }
 
 a{
     text-decoration:none;
-    color:#17000C;
+}
+
+h4 a{
+	color:white;
 }
 
 a:hover{
  color:#800000;   
 }
 
-.logo{
- list-style:none;
-}
+hr {
+  border: 1px dashed #3C383C;
+  }
 
 #header{
     background-color:#776F77;
-    height:100px;
-    color:#17000C;
+    height:120px;
+    color:white;/*#17000C;*/
     box-shadow: 10px 10px 5px #3C383C;
     margin:15px;
-    padding:5px;
+    padding:5px 25px 5px 25px;
 	border-radius:20px;
+}
+
+h1{
+	font-family:"Lucida Sans Unicode";
 }
 
 .header-left{
@@ -34,7 +37,7 @@ a:hover{
 }
 
 .header-right{
-    float:right;    
+    float:right;
 }
 
 .left{
@@ -54,13 +57,12 @@ a:hover{
     float:right;
     margin:15px;
     padding:10px;
-    box-shadow: 10px 10px 5px #958B95;
+    box-shadow: 10px 10px 5px #3C383C;
 	border-radius:20px;
 }
 
 #footer{
     background-color:#776F77;
-    height:150px;
     clear:both;
     margin:15px;
     padding:10px;
@@ -69,7 +71,15 @@ a:hover{
 	border-radius:20px;
 }
 
-h4, h3{
+#footer a{
+	color:black;
+}
+
+#footer a:hover{
+ color:#800000;   
+}
+
+h3{
  color:#17000C;   
 }
 
@@ -82,18 +92,3 @@ td{
     font-weight:bold; 
     color:#17000C;
 }
-
-#socialicon{
-	list-style:none;
-	display:inline;
-}
-
-
-/*.social{
-	width:50px;
-	height:50px;
-	background-color:#3C383C;
-	box-shadow: 5px 5px 5px #A8A4A8;
-	border-radius:100%;
-
-}*/
