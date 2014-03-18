@@ -1,0 +1,25 @@
+<!DOCTYPE = "html">
+<html>
+<head>
+<script src="jquery.js"></script>
+<script>
+$('#menu li').hover(function() {
+        $(this).find('ul').show();
+    },
+    function() {
+      $(this).find('ul').hide();
+});
+</script>
+</head>
+<body>
+<ul id='menu'>
+<li><a href="">Always showing</a></li>
+<li><a href="">Always showing Title of Submenu</a>
+<ul>
+<li><a href="">Hidden until hover over Title </a></li>
+</ul>
+</li>
+
+
+</body>
+</html>

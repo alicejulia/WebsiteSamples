@@ -1,0 +1,112 @@
+#header{
+	padding:1px 0 0 50px;
+	margin: 0 auto;
+}
+
+#header p{
+	font-family:serif;
+	font-weight:bold;
+	font-style:oblique;
+	text-shadow:10px -10px 5px #C7C7C7;
+	font-size:50px;
+	color:#3E5948;
+}
+
+a,a:visited{
+	text-decoration:none;
+}
+
+#header-menu{
+	background-color:#3E5948; 
+	margin: 0 auto;
+	border-radius:10px;
+	width:100%;
+	padding:1px 0;
+}
+
+#header-menu-items{
+	list-style:none;
+	display:inline;
+	padding:0 20px;
+	font-weight:bold;
+	font-size:20px;
+	color:#fff;
+}
+
+#header-menu-items a,a:visited{
+	color:#fff;
+}
+
+#submenu{
+    display: none;
+}
+
+#header-menu-items a:hover{
+    display: inline;
+}
+
+#body{
+	width:100%;
+	height:100%;
+}
+
+#sidebar{
+	width:17%;
+	float:right;
+	margin:20px 30px 0 0;
+	padding:10px;
+}
+
+#sidebar p{
+	line-height:2;
+}
+
+#navtitle{
+	font-family:serif;
+	font-weight:bold;
+	font-style:oblique;
+	font-size:25px;
+	color:#C4A476;/*967F5D;#AD926C;*/
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #3E5948;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+}
+
+#body-content{
+	width:72%;
+	float:left;
+	margin: 20px 0 0 20px;
+	padding:10px;
+	text-align:justify;
+	line-height:1.5;
+	font-family:Verdana,sans-serif;
+	font-stretch: expanded;
+	color:#688272;
+	font-size:14;
+}
+
+#body-content h3{
+	color:#C4A476;
+}
+
+#footer{
+	width:100%;
+	float:left;
+	margin: 0 auto;
+	padding:10px;
+	background: #3E5948;
+	text-align: center;
+	color:#fff;
+}
+
+#HomePic{
+	width:400px;
+	height:300px;
+}
