@@ -1,0 +1,183 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font: 12px Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	background: #fff;
+}
+
+*{
+	margin: 0 auto 0 auto;
+	text-align:left;
+}
+
+h3{
+	color:#73566A;
+}
+
+a, a:visited{
+	text-decoration:none;
+}
+#body{
+	margin:0;
+	width:960px;
+}
+
+#title{
+	width:1350px;
+	height:85px;
+}
+
+#title h1{
+	color:#73566A;
+	float:left;
+	padding:15px 30px 15px 70px;
+	font-size:40px;
+	font-family:Comic Sans MS;
+}
+
+#title h2{
+	color:#73566A;
+
+	padding:35px 30px 15px 30px;
+	font-style:italic;
+}
+
+#social{
+	float:right;
+	padding:25px 30px 15px 30px;
+}
+
+#top-menu {
+	margin:10px;
+	background-color:#AD86A1;
+	border-radius:10px;
+	width:1350px;
+	height:45px;
+	padding:0;
+}
+
+#top-menu  a, a:visited{
+	color:#fff;
+}
+
+#top-menu ul{
+	list-style:none;
+	float:left;
+	margin:0;
+	padding:10px 20px 10px 20px;
+}
+
+#top-menu li{
+	display:inline;
+	padding:10px 20px 10px 20px;
+	color:#fff;
+	font-weight:bold;
+	font-size:20px;
+}
+
+#main-home-block{
+	margin:20px 0 0 10px;
+	padding:10px;
+	width:1300px;
+	height:400px;
+	line-height:2;
+	/*border-radius:10px;
+	border: solid 2px #AD86A1;*/
+}
+
+#home-block{
+	width:350px;
+	height:350px;
+	border-radius:10px;
+	border: dashed 1px #AD86A1;
+	float:left;
+	padding:10px 20px;
+	margin: 10px 20px 10px 20px;
+}
+
+#home-block  h2{
+	text-align:center;
+	padding:10px 0 10px 0;
+}
+
+#home-block h5{
+	text-align:center;
+	font-size:12px;
+	align:center;
+	padding:10px 0 0 0;
+}
+
+#home-block h4{
+	text-align:center;
+	align:center;
+	color:#AD86A1;
+	font-size:50px;
+}
+
+#home-block img{
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+	width:200px;
+	height:200px;
+	border-radius:10px;
+	padding:0 0 0 0;
+}
+
+#about-content h5{
+	float:left;
+	width:600px;
+	padding:25px 0 0 25px;
+	font-size:15px;
+	font-weight:normal;
+	color:#73566A;
+}
+
+#about-content img{
+	float:right;
+	width:380px;
+	height:380px;
+	padding:10px 40px 0 0;
+}
+
+#fieldset{
+	margin:auto;
+	padding:10px 10px 10px 50px;
+	width:400px;
+	height:350px;
+	border:1px dashed #AD86A1;
+	border-radius:10px;
+	
+}
+
+#fieldset label{
+	width:100px;
+	float:left;
+}
+
+#fieldset p{
+	padding:10px 0 10px 0;
+}
+
+#photo-table {
+
+}
+
+#photo-table td{
+	height:100px;
+	width:100px;
+
+}
+
+#photo-table img{
+	height:300px;
+	width:300px;
+}
+
+#profile-table td{
+ border-bottom:1px dashed;   
+ border-right:1px dashed; 
+ padding:5px;
+}
